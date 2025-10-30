@@ -1,14 +1,14 @@
 //
-//  Intro_QuizApp.swift
+//  IntroQuizApp.swift
 //  Intro Quiz
 //
 //  Created by 原田翼 on 2024/05/10.
 //
 
-import SwiftUI
+import SwiftUI //フレームワークをインポート（SwiftUI）
 
 @main
-struct Intro_QuizApp: App {
+struct IntroQuizApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

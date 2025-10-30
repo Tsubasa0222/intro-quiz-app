@@ -1,58 +1,57 @@
 //
-//  ThirdView.swift
+//  CorrectView.swift
 //  Intro Quiz
 //
-//  Created by 原田翼 on 2024/05/10.
+//  Created by 原田翼 on 2025/10/28.
 //
 
 import SwiftUI
-struct ThirdView: View {
-    @State var isfifthView = false
-    @State var isContentView = false
+
+struct CorrectView: View {
+    @ObservedObject var viewModel: ViewModel
+    
     var body: some View {
         VStack {
             Spacer()
+            
             Image(systemName: "circle")
                 .resizable()
-                .foregroundColor(.red)
+                .foregroundColor(.green)
                 .scaledToFit()
-                .frame(width: UIScreen.main.bounds.width/2)
+                .frame(width: UIScreen.main.bounds.width / 2)
                 .padding()
-            Text("正解")
+            
+            Text("正解！")
                 .font(.largeTitle)
+                .fontWeight(.bold)
                 .padding()
+            
             Spacer()
-            HStack{
+            
+            HStack {
                 Button("次へ") {
-                    isfifthView = true
+                    viewModel.nextQuestion()
                 }
                 .padding()
                 .background(Color.blue)
                 .foregroundColor(.white)
                 .cornerRadius(10)
                 .font(.title3)
+                
                 Spacer().frame(width: 75)
-                .sheet(isPresented: $isfifthView) {
-                    fifthView()
-                        .presentationDetents([.large])
-                }
+                
                 Button("終了") {
-                    isContentView = true
+                    viewModel.state = .score
                 }
                 .padding()
-                .background(Color.blue)
+                .background(Color.red)
                 .foregroundColor(.white)
                 .cornerRadius(10)
                 .font(.title3)
-                .sheet(isPresented: $isContentView) {
-                    ContentView()
-                        .presentationDetents([.large])
-                }
             }
+            
             Spacer()
         }
     }
 }
-#Preview {
-    ThirdView()
-}
+

@@ -7,30 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A517FC6F2BED3CB8005E6B89 /* Intro_QuizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517FC6E2BED3CB8005E6B89 /* Intro_QuizApp.swift */; };
-		A517FC712BED3CB8005E6B89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517FC702BED3CB8005E6B89 /* ContentView.swift */; };
+		A517FC6F2BED3CB8005E6B89 /* IntroQuizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517FC6E2BED3CB8005E6B89 /* IntroQuizApp.swift */; };
+		A517FC712BED3CB8005E6B89 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517FC702BED3CB8005E6B89 /* HomeView.swift */; };
 		A517FC732BED3CB9005E6B89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A517FC722BED3CB9005E6B89 /* Assets.xcassets */; };
 		A517FC762BED3CB9005E6B89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A517FC752BED3CB9005E6B89 /* Preview Assets.xcassets */; };
-		A517FC812BED4241005E6B89 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517FC802BED4241005E6B89 /* SecondView.swift */; };
-		A517FC892BED5EAF005E6B89 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517FC882BED5EAF005E6B89 /* ThirdView.swift */; };
-		A517FC8B2BED5F6D005E6B89 /* fourthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517FC8A2BED5F6D005E6B89 /* fourthView.swift */; };
-		A517FC952BED9013005E6B89 /* fifthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517FC942BED9013005E6B89 /* fifthView.swift */; };
-		A517FC992BEDA395005E6B89 /* ハルジオン.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A517FC982BEDA395005E6B89 /* ハルジオン.mp3 */; };
-		A517FC9B2BEDA55E005E6B89 /* DNA.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A517FC9A2BEDA55E005E6B89 /* DNA.mp3 */; };
+		A517FC812BED4241005E6B89 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517FC802BED4241005E6B89 /* QuizView.swift */; };
+		A517FC892BED5EAF005E6B89 /* InCorrectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517FC882BED5EAF005E6B89 /* InCorrectView.swift */; };
+		A517FC952BED9013005E6B89 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517FC942BED9013005E6B89 /* ScoreView.swift */; };
+		A53633992EB01398002E0B33 /* CorrectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53633982EB01391002E0B33 /* CorrectView.swift */; };
+		A536339B2EB3C365002E0B33 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A536339A2EB3C357002E0B33 /* ViewModel.swift */; };
+		A536339D2EB3C8A3002E0B33 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A536339C2EB3C89F002E0B33 /* Model.swift */; };
+		A536339F2EB3CCB4002E0B33 /* before.swift in Sources */ = {isa = PBXBuildFile; fileRef = A536339E2EB3CCAF002E0B33 /* before.swift */; };
+		A53633A12EB3EAB2002E0B33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53633A02EB3EAA9002E0B33 /* ContentView.swift */; };
+		A53633B62EB4101C002E0B33 /* 夜に駆ける.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A53633B52EB4101C002E0B33 /* 夜に駆ける.mp3 */; };
+		A53633B72EB4101C002E0B33 /* ハルジオン.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A53633AE2EB4101C002E0B33 /* ハルジオン.mp3 */; };
+		A53633B82EB4101C002E0B33 /* 色彩.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A53633B42EB4101C002E0B33 /* 色彩.mp3 */; };
+		A53633B92EB4101C002E0B33 /* doku.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A53633A52EB4101C002E0B33 /* doku.mp3 */; };
+		A53633BA2EB4101C002E0B33 /* SSS.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A53633A92EB4101C002E0B33 /* SSS.mp3 */; };
+		A53633BB2EB4101C002E0B33 /* 祝福.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A53633B32EB4101C002E0B33 /* 祝福.mp3 */; };
+		A53633BC2EB4101C002E0B33 /* 群青.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A53633B22EB4101C002E0B33 /* 群青.mp3 */; };
+		A53633BD2EB4101C002E0B33 /* 怪物.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A53633B12EB4101C002E0B33 /* 怪物.mp3 */; };
+		A53633BE2EB4101C002E0B33 /* Permission to Dance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A53633A82EB4101C002E0B33 /* Permission to Dance.mp3 */; };
+		A53633BF2EB4101C002E0B33 /* Dynamite.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A53633A62EB4101C002E0B33 /* Dynamite.mp3 */; };
+		A53633C02EB4101C002E0B33 /* DNA.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A53633A42EB4101C002E0B33 /* DNA.mp3 */; };
+		A53633C12EB4101C002E0B33 /* ドラマツルギー.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A53633AC2EB4101C002E0B33 /* ドラマツルギー.mp3 */; };
+		A53633C22EB4101C002E0B33 /* Butter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A53633A32EB4101C002E0B33 /* Butter.mp3 */; };
+		A53633C32EB4101C002E0B33 /* アイドル.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A53633AB2EB4101C002E0B33 /* アイドル.mp3 */; };
+		A53633C42EB4101C002E0B33 /* 廻廻奇譚.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A53633B02EB4101C002E0B33 /* 廻廻奇譚.mp3 */; };
+		A53633C52EB4101C002E0B33 /* Boy With Luv.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A53633A22EB4101C002E0B33 /* Boy With Luv.mp3 */; };
+		A53633C62EB4101C002E0B33 /* ファイトソング.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A53633AF2EB4101C002E0B33 /* ファイトソング.mp3 */; };
+		A53633C72EB4101C002E0B33 /* ナンセンス文学.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A53633AD2EB4101C002E0B33 /* ナンセンス文学.mp3 */; };
+		A53633C82EB4101C002E0B33 /* Sugar Rush Ride.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A53633AA2EB4101C002E0B33 /* Sugar Rush Ride.mp3 */; };
+		A53633C92EB4101C002E0B33 /* lazy cat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A53633A72EB4101C002E0B33 /* lazy cat.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A517FC6B2BED3CB8005E6B89 /* Intro Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Intro Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A517FC6E2BED3CB8005E6B89 /* Intro_QuizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro_QuizApp.swift; sourceTree = "<group>"; };
-		A517FC702BED3CB8005E6B89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A517FC6E2BED3CB8005E6B89 /* IntroQuizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroQuizApp.swift; sourceTree = "<group>"; };
+		A517FC702BED3CB8005E6B89 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A517FC722BED3CB9005E6B89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A517FC752BED3CB9005E6B89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A517FC802BED4241005E6B89 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
-		A517FC882BED5EAF005E6B89 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
-		A517FC8A2BED5F6D005E6B89 /* fourthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourthView.swift; sourceTree = "<group>"; };
-		A517FC942BED9013005E6B89 /* fifthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fifthView.swift; sourceTree = "<group>"; };
-		A517FC982BEDA395005E6B89 /* ハルジオン.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "ハルジオン.mp3"; path = "../../../../Downloads/ハルジオン.mp3"; sourceTree = "<group>"; };
-		A517FC9A2BEDA55E005E6B89 /* DNA.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = DNA.mp3; path = ../../../../Downloads/DNA.mp3; sourceTree = "<group>"; };
+		A517FC802BED4241005E6B89 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		A517FC882BED5EAF005E6B89 /* InCorrectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InCorrectView.swift; sourceTree = "<group>"; };
+		A517FC942BED9013005E6B89 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		A53633982EB01391002E0B33 /* CorrectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectView.swift; sourceTree = "<group>"; };
+		A536339A2EB3C357002E0B33 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		A536339C2EB3C89F002E0B33 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		A536339E2EB3CCAF002E0B33 /* before.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = before.swift; sourceTree = "<group>"; };
+		A53633A02EB3EAA9002E0B33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A53633A22EB4101C002E0B33 /* Boy With Luv.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Boy With Luv.mp3"; sourceTree = "<group>"; };
+		A53633A32EB4101C002E0B33 /* Butter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Butter.mp3; sourceTree = "<group>"; };
+		A53633A42EB4101C002E0B33 /* DNA.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DNA.mp3; sourceTree = "<group>"; };
+		A53633A52EB4101C002E0B33 /* doku.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = doku.mp3; sourceTree = "<group>"; };
+		A53633A62EB4101C002E0B33 /* Dynamite.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Dynamite.mp3; sourceTree = "<group>"; };
+		A53633A72EB4101C002E0B33 /* lazy cat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "lazy cat.mp3"; sourceTree = "<group>"; };
+		A53633A82EB4101C002E0B33 /* Permission to Dance.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Permission to Dance.mp3"; sourceTree = "<group>"; };
+		A53633A92EB4101C002E0B33 /* SSS.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SSS.mp3; sourceTree = "<group>"; };
+		A53633AA2EB4101C002E0B33 /* Sugar Rush Ride.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sugar Rush Ride.mp3"; sourceTree = "<group>"; };
+		A53633AB2EB4101C002E0B33 /* アイドル.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "アイドル.mp3"; sourceTree = "<group>"; };
+		A53633AC2EB4101C002E0B33 /* ドラマツルギー.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ドラマツルギー.mp3"; sourceTree = "<group>"; };
+		A53633AD2EB4101C002E0B33 /* ナンセンス文学.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ナンセンス文学.mp3"; sourceTree = "<group>"; };
+		A53633AE2EB4101C002E0B33 /* ハルジオン.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ハルジオン.mp3"; sourceTree = "<group>"; };
+		A53633AF2EB4101C002E0B33 /* ファイトソング.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ファイトソング.mp3"; sourceTree = "<group>"; };
+		A53633B02EB4101C002E0B33 /* 廻廻奇譚.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "廻廻奇譚.mp3"; sourceTree = "<group>"; };
+		A53633B12EB4101C002E0B33 /* 怪物.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "怪物.mp3"; sourceTree = "<group>"; };
+		A53633B22EB4101C002E0B33 /* 群青.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "群青.mp3"; sourceTree = "<group>"; };
+		A53633B32EB4101C002E0B33 /* 祝福.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "祝福.mp3"; sourceTree = "<group>"; };
+		A53633B42EB4101C002E0B33 /* 色彩.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "色彩.mp3"; sourceTree = "<group>"; };
+		A53633B52EB4101C002E0B33 /* 夜に駆ける.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "夜に駆ける.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,15 +107,37 @@
 		A517FC6D2BED3CB8005E6B89 /* Intro Quiz */ = {
 			isa = PBXGroup;
 			children = (
-				A517FC6E2BED3CB8005E6B89 /* Intro_QuizApp.swift */,
-				A517FC702BED3CB8005E6B89 /* ContentView.swift */,
-				A517FC802BED4241005E6B89 /* SecondView.swift */,
-				A517FC882BED5EAF005E6B89 /* ThirdView.swift */,
-				A517FC8A2BED5F6D005E6B89 /* fourthView.swift */,
-				A517FC942BED9013005E6B89 /* fifthView.swift */,
+				A517FC6E2BED3CB8005E6B89 /* IntroQuizApp.swift */,
+				A53633A02EB3EAA9002E0B33 /* ContentView.swift */,
+				A517FC702BED3CB8005E6B89 /* HomeView.swift */,
+				A517FC802BED4241005E6B89 /* QuizView.swift */,
+				A53633982EB01391002E0B33 /* CorrectView.swift */,
+				A517FC882BED5EAF005E6B89 /* InCorrectView.swift */,
+				A517FC942BED9013005E6B89 /* ScoreView.swift */,
+				A536339C2EB3C89F002E0B33 /* Model.swift */,
+				A536339A2EB3C357002E0B33 /* ViewModel.swift */,
+				A536339E2EB3CCAF002E0B33 /* before.swift */,
 				A517FC722BED3CB9005E6B89 /* Assets.xcassets */,
-				A517FC9A2BEDA55E005E6B89 /* DNA.mp3 */,
-				A517FC982BEDA395005E6B89 /* ハルジオン.mp3 */,
+				A53633A22EB4101C002E0B33 /* Boy With Luv.mp3 */,
+				A53633A32EB4101C002E0B33 /* Butter.mp3 */,
+				A53633A42EB4101C002E0B33 /* DNA.mp3 */,
+				A53633A52EB4101C002E0B33 /* doku.mp3 */,
+				A53633A62EB4101C002E0B33 /* Dynamite.mp3 */,
+				A53633A72EB4101C002E0B33 /* lazy cat.mp3 */,
+				A53633A82EB4101C002E0B33 /* Permission to Dance.mp3 */,
+				A53633A92EB4101C002E0B33 /* SSS.mp3 */,
+				A53633AA2EB4101C002E0B33 /* Sugar Rush Ride.mp3 */,
+				A53633AB2EB4101C002E0B33 /* アイドル.mp3 */,
+				A53633AC2EB4101C002E0B33 /* ドラマツルギー.mp3 */,
+				A53633AD2EB4101C002E0B33 /* ナンセンス文学.mp3 */,
+				A53633AE2EB4101C002E0B33 /* ハルジオン.mp3 */,
+				A53633AF2EB4101C002E0B33 /* ファイトソング.mp3 */,
+				A53633B02EB4101C002E0B33 /* 廻廻奇譚.mp3 */,
+				A53633B12EB4101C002E0B33 /* 怪物.mp3 */,
+				A53633B22EB4101C002E0B33 /* 群青.mp3 */,
+				A53633B32EB4101C002E0B33 /* 祝福.mp3 */,
+				A53633B42EB4101C002E0B33 /* 色彩.mp3 */,
+				A53633B52EB4101C002E0B33 /* 夜に駆ける.mp3 */,
 				A517FC742BED3CB9005E6B89 /* Preview Content */,
 			);
 			path = "Intro Quiz";
@@ -143,9 +209,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A517FC9B2BEDA55E005E6B89 /* DNA.mp3 in Resources */,
-				A517FC992BEDA395005E6B89 /* ハルジオン.mp3 in Resources */,
 				A517FC762BED3CB9005E6B89 /* Preview Assets.xcassets in Resources */,
+				A53633B62EB4101C002E0B33 /* 夜に駆ける.mp3 in Resources */,
+				A53633B72EB4101C002E0B33 /* ハルジオン.mp3 in Resources */,
+				A53633B82EB4101C002E0B33 /* 色彩.mp3 in Resources */,
+				A53633B92EB4101C002E0B33 /* doku.mp3 in Resources */,
+				A53633BA2EB4101C002E0B33 /* SSS.mp3 in Resources */,
+				A53633BB2EB4101C002E0B33 /* 祝福.mp3 in Resources */,
+				A53633BC2EB4101C002E0B33 /* 群青.mp3 in Resources */,
+				A53633BD2EB4101C002E0B33 /* 怪物.mp3 in Resources */,
+				A53633BE2EB4101C002E0B33 /* Permission to Dance.mp3 in Resources */,
+				A53633BF2EB4101C002E0B33 /* Dynamite.mp3 in Resources */,
+				A53633C02EB4101C002E0B33 /* DNA.mp3 in Resources */,
+				A53633C12EB4101C002E0B33 /* ドラマツルギー.mp3 in Resources */,
+				A53633C22EB4101C002E0B33 /* Butter.mp3 in Resources */,
+				A53633C32EB4101C002E0B33 /* アイドル.mp3 in Resources */,
+				A53633C42EB4101C002E0B33 /* 廻廻奇譚.mp3 in Resources */,
+				A53633C52EB4101C002E0B33 /* Boy With Luv.mp3 in Resources */,
+				A53633C62EB4101C002E0B33 /* ファイトソング.mp3 in Resources */,
+				A53633C72EB4101C002E0B33 /* ナンセンス文学.mp3 in Resources */,
+				A53633C82EB4101C002E0B33 /* Sugar Rush Ride.mp3 in Resources */,
+				A53633C92EB4101C002E0B33 /* lazy cat.mp3 in Resources */,
 				A517FC732BED3CB9005E6B89 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,12 +241,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A517FC892BED5EAF005E6B89 /* ThirdView.swift in Sources */,
-				A517FC812BED4241005E6B89 /* SecondView.swift in Sources */,
-				A517FC952BED9013005E6B89 /* fifthView.swift in Sources */,
-				A517FC712BED3CB8005E6B89 /* ContentView.swift in Sources */,
-				A517FC6F2BED3CB8005E6B89 /* Intro_QuizApp.swift in Sources */,
-				A517FC8B2BED5F6D005E6B89 /* fourthView.swift in Sources */,
+				A517FC892BED5EAF005E6B89 /* InCorrectView.swift in Sources */,
+				A517FC812BED4241005E6B89 /* QuizView.swift in Sources */,
+				A517FC952BED9013005E6B89 /* ScoreView.swift in Sources */,
+				A517FC712BED3CB8005E6B89 /* HomeView.swift in Sources */,
+				A517FC6F2BED3CB8005E6B89 /* IntroQuizApp.swift in Sources */,
+				A53633992EB01398002E0B33 /* CorrectView.swift in Sources */,
+				A53633A12EB3EAB2002E0B33 /* ContentView.swift in Sources */,
+				A536339B2EB3C365002E0B33 /* ViewModel.swift in Sources */,
+				A536339F2EB3CCB4002E0B33 /* before.swift in Sources */,
+				A536339D2EB3C8A3002E0B33 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
