@@ -14,7 +14,7 @@ struct QuizView: View {
         VStack {
             Spacer()
             
-            Text("曲名を選択してください！")
+            Text("曲名を選択してください")
                 .font(.title3)
                 .padding()
             
@@ -26,6 +26,9 @@ struct QuizView: View {
                 }
                 .padding()
             }
+            
+            Spacer()
+                .frame(height: 30)
             
             Button("再生") {
                 viewModel.playMusic()
