@@ -200,28 +200,3 @@ struct aView: View {
 #Preview {
     QuizView(TotalQuestions: 0, CorrectAnswer: 0)
 }
-*/
-
-
-/*
- Music(title: "夜に駆ける", filename: "夜に駆ける"),
- Music(title: "群青", filename: "群青"),
- Music(title: "アイドル", filename: "アイドル"),
- Music(title: "祝福", filename: "祝福"),
- Music(title: "怪物", filename: "怪物"),
- Music(title: "Dynamite", filename: "Dynamite"),
- Music(title: "Butter", filename: "Butter"),
- Music(title: "Permission to Dance", filename: "Permission to Dance"),
- Music(title: "DNA", filename: "DNA"),
- Music(title: "Boy With Luv", filename: "Boy With Luv"),
- Music(title: "廻廻奇譚", filename: "廻廻奇譚"),
- Music(title: "ドラマツルギー", filename: "ドラマツルギー"),
- Music(title: "ナンセンス文学", filename: "ナンセンス文学"),
- Music(title: "lazy cat", filename: "lazy cat"),
- Music(title: "ファイトソング", filename: "ファイトソング"),
- Music(title: "春を告げる", filename: "春を告げる"),
- Music(title: "色彩", filename: "色彩"),
- Music(title: "ハルジオン", filename: "ハルジオン"),
- Music(title: "Sugar Rush Ride", filename: "Sugar Rush Ride"),
- Music(title: "SSS(Sending Secret Signals)", filename: "SSS")
- */
